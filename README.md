@@ -1,4 +1,4 @@
-# thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)
+# ThinkPad-X390-Opencore-EFI-Sequoia (15.0.1 - OC 1.0.2)
 
 ## Table of Contents
 
