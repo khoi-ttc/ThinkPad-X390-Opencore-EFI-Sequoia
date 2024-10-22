@@ -144,3 +144,4 @@ Hibernation is supported. No serious issue found after wake-up. However for some
 - [@VGEAREN](https://github.com/VGEAREN) for [Lenovo-X390-Big-Sur-OC-EFI](https://github.com/VGEAREN/Lenovo-X390-Big-Sur-OC-EFI)
 - [@bayukp](https://github.com/bayukp) for [Thinkpad-X390-Opencore](https://github.com/bayukp/Thinkpad-X390-Opencore)
 - [@mahronid](https://github.com/mahronid) for [thinkpad-x390-hackintosh](https://github.com/mahronid/thinkpad-x390-hackintosh)
+- [@ayaya114514](https://github.com/ayaya114514) for [thinkpad-X390-hackintosh](https://github.com/ayaya114514/thinkpad-X390-hackintosh)
