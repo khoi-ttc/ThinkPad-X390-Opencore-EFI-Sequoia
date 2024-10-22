@@ -97,7 +97,7 @@ Functioning normally.
 
 #### Wireless-Card
 
-AirportItlwm not working, requires Itlwm and Heliport
+AirportItlwm not working, requires Itlwm and Heliport. 
 Bluetooth probably functioning normally
 
 #### Integrated-Camera
