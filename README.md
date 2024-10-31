@@ -46,7 +46,7 @@
 
 ## Usage
 
-If you have the same computer as me, you just need to replace your EFI with the EFI in the current directory. Don't forget to update your serial.
+If you have the same computer as me, you just need to replace your EFI with the EFI in the current directory. Don't forget to update your serial via GenSMBIOS
 
 ## Detailed-Device-Drivers
 
