@@ -1,33 +1,32 @@
-# ThinkPad-X390-Opencore-EFI-Sequoia (15.0.1 - OC 1.0.2)
+# ThinkPad-X390-Opencore-EFI-Sequoia (OC 1.0.2)
 
 ## Table of Contents
 
-- [thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)](#thinkpadX390-hackintosh-Sonoma (14.4.1 - OC 0.9.9))
-  - [Table of Contents](#table-of-contents)
-  - [Device Information](#device-information)
-  - [Usage](#usage)
-  - [What-is-working](#what-is-working)
-    - [Detailed-Device-Drivers](#detailed-device-drivers)
-      - [CPU](#cpu)
-      - [Battery](#battery)
-      - [USB](#usb)
-      - [Ethernet](#ethernet)
-      - [Display](#display)
-      - [Audio](#audio)
-      - [Keyboard](#keyboard)
-      - [SSD](#ssd)
-      - [Bluetooth](#bluetooth)
-      - [Trackpad-Trackpoint](#trackpad-trackpoint)
-      - [Wireless-Card](#wireless-card)
-      - [Integrated-Camera](#integrated-camera)
-      - [Thunderbolt 3](#thunderbolt-3)
-      - [Headphone/mic combo](#headphonemic-combo)
-  - [What-is-not-working](#what-is-not-working)
-  - [Recommended-BIOS-Config](#recommended-bios-config)
-  - [Tips](#tips)
-    - [Hibernation](#hibernation)
-  - [Support](#support)
-  - [Credits](#credits)
+- [Device Information](#device-information)
+- [Usage](#usage)
+- [Detailed-Device-Drivers](#detailed-device-drivers)
+  - [CPU](#cpu)
+  - [Battery](#battery)
+  - [USB](#usb)
+  - [Ethernet](#ethernet)
+  - [Display](#display)
+  - [Audio](#audio)
+  - [Keyboard](#keyboard)
+  - [SSD](#ssd)
+  - [Bluetooth](#bluetooth)
+  - [Trackpad-Trackpoint](#trackpad-trackpoint)
+  - [Wireless-Card](#wireless-card)
+  - [Integrated-Camera](#integrated-camera)
+  - [Thunderbolt 3](#thunderbolt-3)
+  - [Headphone/mic combo](#headphonemic-combo)   
+
+  - [SD Card reader](#sd-card-reader)
+- [What-is-not-working](#what-is-not-working)
+- [Recommended-BIOS-Config](#recommended-bios-config)
+- [Questions-and-Issues](#questions-and-issues)
+- [Hibernation](#hibernation)
+- [Support](#support)
+- [Credits](#credits)
 
 ## Device Information
 | Specifications | Details |
@@ -49,11 +48,9 @@
 
 If you have the same computer as me, you just need to replace your EFI with the EFI in the current directory. Don't forget to update your serial.
 
-## What-is-working
+## Detailed-Device-Drivers
 
-### Detailed-Device-Drivers
-
-#### CPU
+## CPU
 
 Functioning normally. Patched with CPUFriend.kext: 1.6 GHz (Min) - 3.9 GHz(Max)
 
@@ -97,7 +94,9 @@ Functioning normally.
 
 #### Wireless-Card
 
-AirportItlwm not working, requires Itlwm and Heliport
+AirportItlwm not working in Sequoia, requires Itlwm and Heliport 
+
+If using older versions of MacOS, use OCAT to add AirportItlwm for the EFI, remember to remove Itlwm
 
 #### Integrated-Camera
 
@@ -112,6 +111,9 @@ Tested with USB-C hub works fine
 
 Functioning normally.
 
+#### SD Card reader
+
+Cannot be used due to RealtekCardReaderFriend.kext and RealtekCardReader.kext is incompatible with MacOS Sequoia, may be used on older version of MacOS, haven't tested
 
 ## What-is-not-working
 
@@ -129,14 +131,20 @@ Functioning normally.
 - AirportItlwm dosen't work
     As of now, the guy behind the Intel Wireless Card magic haven't released a version for Sequoia yet. There's a risky patch that i found but haven't tested, if you guys done it pls let me know 
     https://github.com/OpenIntelWireless/itlwm/issues/1009#issuecomment-2370919270
+- Currently, this EFI can be used for older version of MacOSes up to Ventura(semi-tested), if any issues plz report to Issues.
+- 
 ### Hibernation
 
 Hibernation is supported. No serious issue found after wake-up. However for some reason, the headphone jack audio become weird. If this didn't happen to you then you are lucky then
 
 ## Support
-
+**Ventura**
+- 13.x
+**Sonoma**
+- 14.x
 **Sequoia**
 - 15.0.1
+- 15.1
 
 ## Credits
 - [@mendax1234](https://github.com/mendax1234) for [ThinkpadX390-Opencore-EFI](https://github.com/mendax1234/ThinkpadX390-Opencore-EFI)
