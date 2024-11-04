@@ -113,7 +113,7 @@ Functioning normally.
 
 #### SD Card reader
 
-Cannot be used due to RealtekCardReaderFriend.kext and RealtekCardReader.kext is incompatible with MacOS Sequoia, may be used on older version of MacOS, haven't tested
+Now working properly, after I formatted my SD to exFAT, my bad.
 
 ## What-is-not-working
 
