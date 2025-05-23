@@ -74,7 +74,7 @@ The HDMI is attached with `Intel UHD Graphics 630` and is functioning normally. 
 
 #### Audio
 
-Driven by AppleALC with `layout-id: 11`. Everything is working normally. Support Dolby Audio.
+Driven by AppleALC with `layout-id: 90`. Everything is working normally. Support Dolby Audio.
 
 #### Keyboard
 
@@ -115,15 +115,14 @@ Works properly
 
 ## What-is-not-working
 
-- AirportItlwm dosen't support on Sequoia yet, requires Itlwm and Heliport
-- Airdrop, Continunity, Iphone Mirroring and wireless features dosen't work yet 
+- Biometrics not working(T2 security chip required)
 
 ## Recommended-BIOS-Config
 
 - Security
   - Intel SGX: Software Controlled
 - Boot
-  - Boot Mode: UEFI Only (CSM Yes) （if the option is not available, please search for a solution on your own）
+  - Boot Mode: UEFI Only (CSM Yes) 
 
 ### Hibernation
 
