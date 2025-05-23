@@ -94,9 +94,7 @@ Functioning normally.
 
 #### Wireless-Card
 
-AirportItlwm not working in Sequoia, requires Itlwm and Heliport 
-
-If using older versions of MacOS, use OCAT to add AirportItlwm for the EFI, remember to remove Itlwm
+AirportItlwm works normally via OCLP root patch, thanks OC-simplify
 
 #### Integrated-Camera
 
@@ -113,7 +111,7 @@ Functioning normally.
 
 #### SD Card reader
 
-Now working properly, after I formatted my SD to exFAT, my bad.
+Works properly
 
 ## What-is-not-working
 
@@ -127,12 +125,6 @@ Now working properly, after I formatted my SD to exFAT, my bad.
 - Boot
   - Boot Mode: UEFI Only (CSM Yes) （if the option is not available, please search for a solution on your own）
 
-## Questions-and-Issues
-- AirportItlwm dosen't work
-    As of now, the guy behind the Intel Wireless Card magic haven't released a version for Sequoia yet. There's a risky patch that i found but haven't tested, if you guys done it pls let me know 
-    https://github.com/OpenIntelWireless/itlwm/issues/1009#issuecomment-2370919270
-- Currently, this EFI can be used for older version of MacOSes up to Ventura(semi-tested), if any issues plz report to Issues.
-- 
 ### Hibernation
 
 Hibernation is supported. No serious issue found after wake-up. However for some reason, the headphone jack audio become weird. If this didn't happen to you then you are lucky then
