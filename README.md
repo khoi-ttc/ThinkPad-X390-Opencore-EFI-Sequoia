@@ -143,8 +143,7 @@ Hibernation is supported. No serious issue found after wake-up. However for some
 **Sonoma**
 - 14.x
 **Sequoia**
-- 15.0.1
-- 15.1
+- 15.x
 
 ## Credits
 - [@mendax1234](https://github.com/mendax1234) for [ThinkpadX390-Opencore-EFI](https://github.com/mendax1234/ThinkpadX390-Opencore-EFI)
