@@ -68,9 +68,7 @@ Functioning normally.
 
 #### Display
 
-The model of Integrated Graphics is `Intel UHD Graphics 620`, faked to `Intel UHD Graphics 630 (Mobile) `.
-
-The HDMI is attached with `Intel UHD Graphics 630` and is functioning normally. `2K@60Hz` & `4K@30Hz` are supported.
+Built-in HDMI dosent work, Thunderbolt port works and is attached with `Intel UHD Graphics 630` and is functioning normally. `2K@60Hz` & `4K@30Hz` are supported. Fixes coming soon
 
 #### Audio
 
